@@ -148,7 +148,7 @@ PlatformHal::getNewDevice(QString devicePath, LibHalContext *context)
         if (!strcmp(vendor, ""))
         {
             if (mKioskMode)
-                devItem->setVendorString("SUSE Studio USB Key");
+                devItem->setVendorString("Pisi Studio USB Key");
             else
                 devItem->setVendorString("Unknown Device");
         }

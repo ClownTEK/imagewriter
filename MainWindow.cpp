@@ -63,7 +63,7 @@ MainWindow::MainWindow (Platform *platform,
     useOldUI();
 #endif
 
-    setWindowTitle(QString("SUSE Studio Imagewriter %1").arg(APP_VERSION));
+    setWindowTitle(QString("Pisi Studio Imagewriter %1").arg(APP_VERSION));
     reloadDeviceList(cmddevice);
 
     if (cmdfile != NULL)
@@ -231,7 +231,7 @@ MainWindow::useOldUI()
 
     file = new QLabel(tr("File"));
     device = new QLabel(tr("Device"));
-    version = new QLabel(QString("SUSE Studio Imagewriter %1").arg(APP_VERSION));
+    version = new QLabel(QString("Pisi Studio Imagewriter %1").arg(APP_VERSION));
 
     buttonLayout = new QHBoxLayout;
     buttonLayout->addWidget(exitButton);
@@ -623,10 +623,9 @@ void
 AboutLabel::mousePressEvent(QMouseEvent *event)
 {
     Q_UNUSED(event);
-    QMessageBox about(QMessageBox::Information, "About SUSE Studio Imagewriter",
-                   "The <b>SUSE Studio Imagewriter</b> is (C) 2012, SUSE Linux Products GmbH<br><br>\
-                   It is cheerfully released under the GPL v2 license.  You can find the source code on github: https://github.com/mbarringer/imagewriter<br><br>\
-                   It was written by Matt Barringer &lt;matt@incoherent.de&gt;.  Please send complaints directly to him.");
+    QMessageBox about(QMessageBox::Information, "About Pisi Studio Imagewriter",
+                   "The <b>Pisi Studio Imagewriter</b> is (C) 2014, Pisi Linux Products<br><br>\
+                   It is cheerfully released under the GPL v2 license.  You can find the source code on github: https://github.com/namso-01/imagewriter<br>");
     about.exec();
 }
 

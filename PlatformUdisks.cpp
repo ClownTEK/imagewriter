@@ -164,7 +164,7 @@ PlatformUdisks::getNewDevice(QString devicePath)
     if (vendor == "")
     {
         if (mKioskMode)
-            devItem->setVendorString("SUSE Studio USB Key");
+            devItem->setVendorString("Pisi Studio USB Key");
         else
             devItem->setVendorString("Unknown Device");
     }
