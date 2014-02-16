@@ -9,8 +9,8 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Novell")]
-[assembly: AssemblyProduct("SUSE Studio ImageWriter")]
-[assembly: AssemblyCopyright("Copyright © Novell 2009")]
+[assembly: AssemblyProduct("Pisi Studio ImageWriter")]
+[assembly: AssemblyCopyright("Copyright © Novell 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -85,7 +85,7 @@ main (int argc, char *argv[])
                 kioskMode = true;
                 break;
             case 'v':
-                fprintf(stdout, "SUSE Studio Imagewriter %s\nWritten by Matt Barringer <mbarringer@suse.de>\n", APP_VERSION);
+                fprintf(stdout, "Pisi Studio Imagewriter %s", APP_VERSION);
                 exit(0);
                 break;
             case 'm':

@@ -2,7 +2,9 @@
 Type=Application
 Categories=System;Utility;Archiving;
 Exec=/usr/bin/xdg-su -c /usr/bin/imagewriter %f
-Icon=imagewriter
-Name=SUSE Studio Imagewriter
+Icon=/usr/share/pixmaps/imagewriter.png
+Name=Pisi Studio Imagewriter
+Comment[tr]=USB flashdisklere ham disk görüntülerini, hibrid iso'ları yazma aracı
 GenericName=USB key writer
+GenericName[tr]=USB ye iso yazıcı
 Version=1.0

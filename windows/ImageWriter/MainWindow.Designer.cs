@@ -160,7 +160,7 @@ namespace ImageWriter
         this.MinimumSize = new System.Drawing.Size(464, 100);
         this.Name = "MainWindow";
         this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-        this.Text = "SUSE Studio Image Writer";
+        this.Text = "Pisi Studio Image Writer";
         this.tableLayoutPanel1.ResumeLayout(false);
         this.tableLayoutPanel1.PerformLayout();
         ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
